@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean class="com.springcore.springcore.student" id = "student1">
+	// we use setter injection
+	<property name="studentId">
+	 	<value>11</value>
+	</property>
+	<property name="studentName">
+		<value>Rahul Shinde</value>
+	</property>
+		
+	</bean>
+</beans>
